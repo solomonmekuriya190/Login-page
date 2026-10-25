@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Login Page</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+
+</head>
+<body>
+
+
+<div class="login-container">
+
+    <h1>Welcome Back!</h1>
+    <p class="subtitle">Please login to your account</p>
+
+    <form id="loginForm">
+
+        <div class="input-group">
+            <label for="email">Email Address</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+            >
+        </div>
+
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+            >
+        </div>
+        <div  class="input-phone">
+            <label for="phone number">phone number</label>
+           <input type="phone"
+                     id="phone number"
+                     placeholder="Enter your name">
+        </div>
+
+
+        <button type="submit">Login</button>
+
+        <p id="message" aria-live="polite"></p>
+
+    </form>
+
+    <p class="signup">
+        Don't have an account?
+        <a href="#">Sign Up</a>
+    </p>
+
+</div>
+
+
+</body>
+</html>
